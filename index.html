@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koppiku - Government Tender & MOF License Guide</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        koppiku: {
+                            50: '#fdf8f6',
+                            100: '#fbe8e1',
+                            500: '#c55a33',
+                            600: '#a84725',
+                            700: '#8a371c',
+                            900: '#5c2210',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Inter Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-stone-50 text-stone-800 antialiased min-h-screen flex flex-col">
+
+    <!-- Header -->
+    <header class="bg-stone-900 text-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="bg-koppiku-500 text-white p-2.5 rounded-xl font-bold text-xl tracking-wider shadow">
+                    ☕
+                </div>
+                <div>
+                    <h1 class="text-lg font-bold tracking-tight">Koppiku Pte Ltd</h1>
+                    <p class="text-xs text-stone-400">Government Procurement & MOF License Guide</p>
+                </div>
+            </div>
+            <nav class="hidden md:flex items-center space-x-6 text-sm font-medium">
+                <a href="#overview" class="hover:text-koppiku-500 transition">Overview</a>
+                <a href="#where-to-apply" class="text-koppiku-400 font-semibold hover:underline">Direct Application</a>
+                <a href="#tiers" class="hover:text-koppiku-500 transition">Account Tiers & Cost</a>
+                <a href="#workflow" class="hover:text-koppiku-500 transition">Workflow</a>
+                <a href="#checklist" class="hover:text-koppiku-500 transition">Checklist</a>
+                <a href="#codes" class="hover:text-koppiku-500 transition">Bidang Codes</a>
+                <a href="#faqs" class="hover:text-koppiku-500 transition">FAQs</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="bg-gradient-to-br from-stone-900 via-stone-800 to-koppiku-900 text-white py-16 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <span class="inline-block bg-koppiku-500/20 text-koppiku-100 border border-koppiku-500/30 px-3 py-1 rounded-full text-xs font-medium uppercase tracking-wider mb-4">
+                First-Time Business Owner Masterclass
+            </span>
+            <h2 class="text-3xl sm:text-5xl font-extrabold tracking-tight mb-6">
+                Government Catering Tender & MOF Licensing
+            </h2>
+            <p class="text-stone-300 text-base sm:text-lg max-w-2xl mx-auto mb-8 leading-relaxed">
+                Your complete interactive roadmap for <span class="text-white font-semibold">Koppiku</span> to secure official Ministry of Finance (MOF) credentials, navigate ePerolehan, and supply catering for government department events and conferences.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#where-to-apply" class="bg-koppiku-500 hover:bg-koppiku-600 text-white font-medium px-6 py-3 rounded-xl shadow transition transform hover:-translate-y-0.5">
+                    How to Apply Directly
+                </a>
+                <a href="#checklist" class="bg-white/10 hover:bg-white/20 text-white border border-white/20 font-medium px-6 py-3 rounded-xl backdrop-blur transition">
+                    Interactive Checklist
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-16 w-full">
+
+        <!-- Where to Apply Directly Section -->
+        <section id="where-to-apply" class="bg-white rounded-3xl p-6 sm:p-10 shadow-sm border border-stone-200 scroll-mt-24">
+            <div class="max-w-3xl mx-auto">
+                <div class="flex items-center space-x-3 mb-4">
+                    <span class="bg-koppiku-100 text-koppiku-700 font-bold px-3 py-1 rounded-lg text-xs uppercase tracking-wider">Direct Access</span>
+                    <span class="text-xs text-stone-500">Official Portal Guide</span>
+                </div>
+                <h3 class="text-2xl sm:text-3xl font-bold text-stone-900 mb-4">Where to Apply for your MOF License Directly</h3>
+                <p class="text-stone-600 text-base leading-relaxed mb-6">
+                    To apply for official government catering tenders (meetings, conferences, events) exceeding RM20,000, you must register directly through Malaysia’s official public procurement portal:
+                </p>
+
+                <!-- Platform Callout Box -->
+                <div class="bg-stone-50 rounded-2xl p-6 border border-stone-200 mb-6 space-y-4">
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                        <div>
+                            <span class="text-xs font-semibold uppercase tracking-wider text-stone-400 block mb-1">Official Platform Name</span>
+                            <h4 class="text-xl font-bold text-stone-900">ePerolehan Portal (eP)</h4>
+                        </div>
+                        <a href="https://www.eperolehan.gov.my" target="_blank" rel="noopener noreferrer" class="bg-koppiku-500 hover:bg-koppiku-600 text-white font-medium px-5 py-2.5 rounded-xl shadow transition flex items-center space-x-2 text-sm justify-center">
+                            <span>Open ePerolehan Portal</span>
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                        </a>
+                    </div>
+                    <div class="border-t border-stone-200 pt-4">
+                        <p class="text-sm font-medium text-stone-800 mb-2">Exact Navigation Path on Portal:</p>
+                        <ol class="list-decimal list-inside text-sm text-stone-600 space-y-1">
+                            <li>Visit <a href="https://www.eperolehan.gov.my" target="_blank" class="text-koppiku-600 underline font-medium">www.eperolehan.gov.my</a></li>
+                            <li>Navigate to <strong class="text-stone-800">'New Supplier Registration'</strong></li>
+                            <li>Select and submit under <strong class="text-stone-800">'MOF Account'</strong> (Supplier Registration)</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Account Tiers Comparison Section -->
+        <section id="tiers" class="scroll-mt-24">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <h3 class="text-2xl sm:text-3xl font-bold tracking-tight text-stone-900 mb-3">System vs. Tiers: ePerolehan vs. Akaun Asas vs. MOF Account</h3>
+                <p class="text-stone-600 text-sm sm:text-base">Understanding the distinct account structures and costs for first-time business owners.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Tier 1: ePerolehan System -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-stone-200 flex flex-col justify-between">
+                    <div>
+                        <span class="inline-block bg-stone-100 text-stone-800 text-xs font-bold px-3 py-1 rounded-lg mb-3">System Gateway</span>
+                        <h4 class="font-bold text-xl text-stone-900 mb-2">ePerolehan System</h4>
+                        <p class="text-stone-600 text-sm leading-relaxed mb-6">
+                            The national electronic procurement marketplace where all government tenders, quotations, and direct purchases are published and processed.
+                        </p>
+                    </div>
+                    <div class="border-t border-stone-100 pt-4">
+                        <div class="flex justify-between text-xs text-stone-500 mb-1">
+                            <span>Platform Type:</span>
+                            <span class="font-semibold text-stone-800">Government Portal</span>
+                        </div>
+                        <div class="flex justify-between text-xs text-stone-500">
+                            <span>Access Fee:</span>
+                            <span class="font-semibold text-stone-800">Free to Browse</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tier 2: Akaun Asas -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-stone-200 flex flex-col justify-between">
+                    <div>
+                        <span class="inline-block bg-amber-100 text-amber-800 text-xs font-bold px-3 py-1 rounded-lg mb-3">Basic Entry Tier</span>
+                        <h4 class="font-bold text-xl text-stone-900 mb-2">Akaun Asas</h4>
+                        <p class="text-stone-600 text-sm leading-relaxed mb-6">
+                            A free basic account for small vendors. Allows bidding <span class="font-semibold text-stone-900">only</span> for direct purchases (Pembelian Terus) up to <strong>RM20,000</strong>. Not sufficient for major formal catering tenders.
+                        </p>
+                    </div>
+                    <div class="border-t border-stone-100 pt-4">
+                        <div class="flex justify-between text-xs text-stone-500 mb-1">
+                            <span>Cost:</span>
+                            <span class="font-semibold text-emerald-600">RM 0 (Free)</span>
+                        </div>
+                        <div class="flex justify-between text-xs text-stone-500">
+                            <span>Limit:</span>
+                            <span class="font-semibold text-stone-800">&le; RM20,000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tier 3: MOF Account -->
+                <div class="bg-stone-900 text-white rounded-2xl p-6 shadow-md border border-stone-800 flex flex-col justify-between relative overflow-hidden">
+                    <div class="absolute -right-10 -top-10 w-32 h-32 bg-koppiku-500/20 rounded-full blur-2xl"></div>
+                    <div>
+                        <span class="inline-block bg-koppiku-500 text-white text-xs font-bold px-3 py-1 rounded-lg mb-3">Required for Tenders</span>
+                        <h4 class="font-bold text-xl text-white mb-2">MOF License Account</h4>
+                        <p class="text-stone-300 text-sm leading-relaxed mb-6">
+                            The full corporate supplier registration. Unlocks government quotations, department events, and formal tenders <strong>exceeding RM20,000</strong>.
+                        </p>
+                    </div>
+                    <div class="border-t border-stone-800 pt-4">
+                        <div class="flex justify-between text-xs text-stone-400 mb-1">
+                            <span>Total Cost:</span>
+                            <span class="font-bold text-koppiku-100">RM 450</span>
+                        </div>
+                        <div class="flex justify-between text-xs text-stone-400">
+                            <span>Validity:</span>
+                            <span class="font-bold text-white">3 Years</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Step-by-Step Workflow Section -->
+        <section id="workflow" class="scroll-mt-24">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <h3 class="text-2xl sm:text-3xl font-bold tracking-tight text-stone-900 mb-3">Step-by-Step New Application Workflow</h3>
+                <p class="text-stone-600 text-sm sm:text-base">Follow these 4 core phases tailored for Koppiku as a first-time applicant.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Step 1 -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-stone-200 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="w-10 h-10 rounded-xl bg-koppiku-100 text-koppiku-700 font-bold flex items-center justify-center text-sm">01</span>
+                            <span class="text-xs uppercase tracking-wider font-semibold text-stone-400">Phase One</span>
+                        </div>
+                        <h4 class="font-bold text-lg text-stone-900 mb-2">Prepare Documents</h4>
+                        <p class="text-stone-600 text-sm leading-relaxed mb-4">
+                            Gather SSM incorporation documents, paid-up capital verification, director NRIC copies, bank details, and F&B health licenses.
+                        </p>
+                    </div>
+                    <div class="border-t border-stone-100 pt-4 text-xs text-stone-500 flex items-center justify-between">
+                        <span>Readiness</span>
+                        <span class="text-koppiku-600 font-medium">Mandatory</span>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-stone-200 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="w-10 h-10 rounded-xl bg-koppiku-100 text-koppiku-700 font-bold flex items-center justify-center text-sm">02</span>
+                            <span class="text-xs uppercase tracking-wider font-semibold text-stone-400">Phase Two</span>
+                        </div>
+                        <h4 class="font-bold text-lg text-stone-900 mb-2">Register on ePerolehan</h4>
+                        <p class="text-stone-600 text-sm leading-relaxed mb-4">
+                            Go to eperolehan.gov.my, choose 'New Supplier Registration', and select the MOF Account type to initiate licensing.
+                        </p>
+                    </div>
+                    <div class="border-t border-stone-100 pt-4 text-xs text-stone-500 flex items-center justify-between">
+                        <span>Portal</span>
+                        <span class="text-koppiku-600 font-medium">Online Form</span>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-stone-200 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="w-10 h-10 rounded-xl bg-koppiku-100 text-koppiku-700 font-bold flex items-center justify-center text-sm">03</span>
+                            <span class="text-xs uppercase tracking-wider font-semibold text-stone-400">Phase Three</span>
+                        </div>
+                        <h4 class="font-bold text-lg text-stone-900 mb-2">Select Bidang Codes</h4>
+                        <p class="text-stone-600 text-sm leading-relaxed mb-4">
+                            Pick exact Ministry of Finance category codes for food ingredients, prepared meals, and official event catering services.
+                        </p>
+                    </div>
+                    <div class="border-t border-stone-100 pt-4 text-xs text-stone-500 flex items-center justify-between">
+                        <span>Category</span>
+                        <span class="text-koppiku-600 font-medium">Series 220000</span>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-stone-200 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="w-10 h-10 rounded-xl bg-koppiku-100 text-koppiku-700 font-bold flex items-center justify-center text-sm">04</span>
+                            <span class="text-xs uppercase tracking-wider font-semibold text-stone-400">Phase Four</span>
+                        </div>
+                        <h4 class="font-bold text-lg text-stone-900 mb-2">Review & Payment</h4>
+                        <p class="text-stone-600 text-sm leading-relaxed mb-4">
+                            Pay the RM50 processing fee, await MOF review, complete the RM400 approval fee upon success, and receive your 3-year Sijil MOF.
+                        </p>
+                    </div>
+                    <div class="border-t border-stone-100 pt-4 text-xs text-stone-500 flex items-center justify-between">
+                        <span>Total Cost</span>
+                        <span class="text-koppiku-600 font-medium">RM450</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Document Checklist Section -->
+        <section id="checklist" class="bg-white rounded-3xl p-6 sm:p-10 shadow-sm border border-stone-200 scroll-mt-24">
+            <div class="flex flex-col md:flex-row md:items-center justify-between mb-8 pb-6 border-b border-stone-100 gap-4">
+                <div>
+                    <h3 class="text-2xl font-bold text-stone-900">Document & Compliance Checklist</h3>
+                    <p class="text-stone-600 text-sm mt-1">Check off items as Koppiku gathers them. Track your application readiness.</p>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div class="bg-stone-100 px-4 py-2.5 rounded-xl flex items-center space-x-3">
+                        <span class="text-sm font-medium text-stone-700">Progress:</span>
+                        <div class="w-32 bg-stone-200 rounded-full h-2.5 overflow-hidden">
+                            <div id="progress-bar" class="bg-koppiku-500 h-2.5 transition-all duration-300" style="width: 0%"></div>
+                        </div>
+                        <span id="progress-text" class="text-sm font-bold text-stone-900">0/7</span>
+                    </div>
+                    <button onclick="window.print()" class="bg-stone-900 hover:bg-stone-800 text-white text-xs font-medium px-4 py-2.5 rounded-xl transition shadow">
+                        Print / Save Summary
+                    </button>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <!-- Checklist Item 1 -->
+                <label class="flex items-start p-4 rounded-xl border border-stone-200 bg-stone-50/50 hover:bg-stone-50 cursor-pointer transition">
+                    <input type="checkbox" class="checklist-item mt-1 h-5 w-5 text-koppiku-600 rounded border-stone-300 focus:ring-koppiku-500" onchange="updateProgress()">
+                    <div class="ml-4">
+                        <span class="font-semibold text-stone-900 block">SSM Registration Documents</span>
+                        <span class="text-xs text-stone-500">Section 14 / Section 58 / Latest Annual Return showing company structure.</span>
+                    </div>
+                </label>
+
+                <!-- Checklist Item 2 -->
+                <label class="flex items-start p-4 rounded-xl border border-stone-200 bg-stone-50/50 hover:bg-stone-50 cursor-pointer transition">
+                    <input type="checkbox" class="checklist-item mt-1 h-5 w-5 text-koppiku-600 rounded border-stone-300 focus:ring-koppiku-500" onchange="updateProgress()">
+                    <div class="ml-4">
+                        <span class="font-semibold text-stone-900 block">Paid-Up Capital Proof</span>
+                        <span class="text-xs text-stone-500">Verification confirming minimum paid-up capital (typically RM2,500+).</span>
+                    </div>
+                </label>
+
+                <!-- Checklist Item 3 -->
+                <label class="flex items-start p-4 rounded-xl border border-stone-200 bg-stone-50/50 hover:bg-stone-50 cursor-pointer transition">
+                    <input type="checkbox" class="checklist-item mt-1 h-5 w-5 text-koppiku-600 rounded border-stone-300 focus:ring-koppiku-500" onchange="updateProgress()">
+                    <div class="ml-4">
+                        <span class="font-semibold text-stone-900 block">Director NRIC (MyKAD) Copies</span>
+                        <span class="text-xs text-stone-500">Clear identification copies for all company directors and major shareholders.</span>
+                    </div>
+                </label>
+
+                <!-- Checklist Item 4 -->
+                <label class="flex items-start p-4 rounded-xl border border-stone-200 bg-stone-50/50 hover:bg-stone-50 cursor-pointer transition">
+                    <input type="checkbox" class="checklist-item mt-1 h-5 w-5 text-koppiku-600 rounded border-stone-300 focus:ring-koppiku-500" onchange="updateProgress()">
+                    <div class="ml-4">
+                        <span class="font-semibold text-stone-900 block">Company Bank Account Statement</span>
+                        <span class="text-xs text-stone-500">Current account statement under the exact registered business name.</span>
+                    </div>
+                </label>
+
+                <!-- Checklist Item 5 -->
+                <label class="flex items-start p-4 rounded-xl border border-stone-200 bg-stone-50/50 hover:bg-stone-50 cursor-pointer transition">
+                    <input type="checkbox" class="checklist-item mt-1 h-5 w-5 text-koppiku-600 rounded border-stone-300 focus:ring-koppiku-500" onchange="updateProgress()">
+                    <div class="ml-4">
+                        <span class="font-semibold text-stone-900 block">Premises Proof (Utility Bill / Tenancy)</span>
+                        <span class="text-xs text-stone-500">Proof of physical operational address for kitchen, cafe, or office.</span>
+                    </div>
+                </label>
+
+                <!-- Checklist Item 6 -->
+                <label class="flex items-start p-4 rounded-xl border border-stone-200 bg-stone-50/50 hover:bg-stone-50 cursor-pointer transition">
+                    <input type="checkbox" class="checklist-item mt-1 h-5 w-5 text-koppiku-600 rounded border-stone-300 focus:ring-koppiku-500" onchange="updateProgress()">
+                    <div class="ml-4">
+                        <span class="font-semibold text-stone-900 block">PBT License & MOH Food Safety (MeSTI)</span>
+                        <span class="text-xs text-stone-500">Local council business license and Ministry of Health food hygiene compliance.</span>
+                    </div>
+                </label>
+
+                <!-- Checklist Item 7 -->
+                <label class="flex items-start p-4 rounded-xl border border-stone-200 bg-stone-50/50 hover:bg-stone-50 cursor-pointer transition md:col-span-2">
+                    <input type="checkbox" class="checklist-item mt-1 h-5 w-5 text-koppiku-600 rounded border-stone-300 focus:ring-koppiku-500" onchange="updateProgress()">
+                    <div class="ml-4">
+                        <span class="font-semibold text-stone-900 block">Halal Certification Compliance Info</span>
+                        <span class="text-xs text-stone-500">JAKIM or recognized Halal certification status required for official government function catering.</span>
+                    </div>
+                </label>
+            </div>
+        </section>
+
+        <!-- Bidang Codes Reference Section -->
+        <section id="codes" class="scroll-mt-24">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <h3 class="text-2xl sm:text-3xl font-bold tracking-tight text-stone-900 mb-3">Essential F&B & Catering Bidang Codes (Series 220000)</h3>
+                <p class="text-stone-600 text-sm sm:text-base">Select these exact reference codes during your ePerolehan application setup to qualify for government catering tenders.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Code Card 1 -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-stone-200">
+                    <span class="inline-block bg-stone-100 text-stone-800 text-xs font-mono font-bold px-3 py-1 rounded-lg mb-3">Code: 220101</span>
+                    <h4 class="font-bold text-lg text-stone-900 mb-2">Bahan Mentah Basah / Kering</h4>
+                    <p class="text-stone-600 text-sm leading-relaxed">
+                        Raw food materials, wet and dry groceries required for preparation of meals and refreshments.
+                    </p>
+                </div>
+
+                <!-- Code Card 2 -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-stone-200">
+                    <span class="inline-block bg-stone-100 text-stone-800 text-xs font-mono font-bold px-3 py-1 rounded-lg mb-3">Code: 220102</span>
+                    <h4 class="font-bold text-lg text-stone-900 mb-2">Makanan dan Minuman Bermasak</h4>
+                    <p class="text-stone-600 text-sm leading-relaxed">
+                        Prepared foods, packed meals, beverages, and banquet catering supplies for ministry meetings and events.
+                    </p>
+                </div>
+
+                <!-- Code Card 3 -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-stone-200">
+                    <span class="inline-block bg-stone-100 text-stone-800 text-xs font-mono font-bold px-3 py-1 rounded-lg mb-3">Code: 220200</span>
+                    <h4 class="font-bold text-lg text-stone-900 mb-2">Perkhidmatan Katering</h4>
+                    <p class="text-stone-600 text-sm leading-relaxed">
+                        Dedicated catering services for government conferences, seminars, official functions, and VIP receptions.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Frequently Asked Questions Section -->
+        <section id="faqs" class="bg-white rounded-3xl p-6 sm:p-10 shadow-sm border border-stone-200 scroll-mt-24">
+            <div class="max-w-3xl mx-auto">
+                <div class="text-center mb-10">
+                    <span class="bg-koppiku-100 text-koppiku-700 font-bold px-3 py-1 rounded-lg text-xs uppercase tracking-wider">Help Center</span>
+                    <h3 class="text-2xl sm:text-3xl font-bold text-stone-900 mt-2">Frequently Asked Questions for First-Time Owners</h3>
+                    <p class="text-stone-600 text-sm mt-1">Everything Koppiku needs to know about costs, validity, and catering requirements.</p>
+                </div>
+
+                <div class="space-y-6">
+                    <div class="border-b border-stone-100 pb-5">
+                        <h4 class="font-bold text-stone-900 text-base mb-2">1. Where exactly do we apply for the MOF license?</h4>
+                        <p class="text-stone-600 text-sm leading-relaxed">
+                            You apply directly online through the official <strong>ePerolehan Portal</strong> (<a href="https://www.eperolehan.gov.my" target="_blank" class="text-koppiku-600 underline font-medium">www.eperolehan.gov.my</a>) under <span class="font-semibold text-stone-800">'New Supplier Registration' -> 'MOF Account'</span>.
+                        </p>
+                    </div>
+
+                    <div class="border-b border-stone-100 pb-5">
+                        <h4 class="font-bold text-stone-900 text-base mb-2">2. What is the total cost and validity period of an MOF Account?</h4>
+                        <p class="text-stone-600 text-sm leading-relaxed">
+                            The total application fee is <strong>RM450</strong> (comprising a RM50 non-refundable processing fee and a RM400 approval fee upon successful review). The issued Sijil MOF is valid for <strong>3 years</strong>.
+                        </p>
+                    </div>
+
+                    <div class="border-b border-stone-100 pb-5">
+                        <h4 class="font-bold text-stone-900 text-base mb-2">3. Can Koppiku skip the Basic Account (Akaun Asas) and apply straight for the MOF Account?</h4>
+                        <p class="text-stone-600 text-sm leading-relaxed">
+                            Yes! Since Koppiku wants to cater government department meetings, conferences, and formal tenders above RM20,000, you should register directly for the paid MOF Account rather than the free Basic Account.
+                        </p>
+                    </div>
+
+                    <div class="pb-2">
+                        <h4 class="font-bold text-stone-900 text-base mb-2">4. Are there specific food and safety prerequisites for government catering?</h4>
+                        <p class="text-stone-600 text-sm leading-relaxed">
+                            Yes, government departments require valid local authority (PBT) business licenses, Ministry of Health hygiene compliances (like MeSTI), and ideally Halal certification status to ensure full compliance for official functions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-stone-950 text-stone-400 py-8 border-t border-stone-800 text-xs mt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p>&copy; 2026 Koppiku Pte Ltd. All rights reserved. Government Procurement & MOF License Guide.</p>
+            <p class="text-stone-500">Designed for first-time business owners in Malaysia.</p>
+        </div>
+    </footer>
+
+    <!-- Interactive Script -->
+    <script>
+        function updateProgress() {
+            const items = document.querySelectorAll('.checklist-item');
+            const checked = document.querySelectorAll('.checklist-item:checked');
+            const percentage = (checked.length / items.length) * 100;
+            
+            document.getElementById('progress-bar').style.width = percentage + '%';
+            document.getElementById('progress-text').textContent = checked.length + '/' + items.length;
+        }
+    </script>
+</body>
+</html>
